@@ -12,3 +12,10 @@
     width: 100px;
     height: 100px;
 }
+
+.v_line {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 100px;
+    margin: 0 auto;
+    width: 1px;
+}
