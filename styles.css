@@ -1,8 +1,3 @@
-.projectImages {
-    width: 400px;
-    height: 250px;
-}
-
 .connectIcons {
     width: 35px;
     height: 35px;
@@ -11,13 +6,6 @@
 .stackIcons {
     width: 100px;
     height: 100px;
-}
-
-.v_line {
-    border-left: 2px solid rgb(0, 0, 0);
-    height: 100px;
-    margin: 0 auto;
-    width: 1px;
 }
 
 /*.carousel-inner {*/
@@ -33,4 +21,23 @@
 
 #codingVsKaraoke {
     background-color: #B1BC55;
+}
+
+#headshot {
+    width: 70%;
+    height: 90%;
+}
+
+/*.carouselImage {*/
+/*    width: auto;*/
+/*    height: 100px;*/
+/*}*/
+
+.carouselImage {
+    height: 1px;
+    position: absolute;
+}
+
+#approach {
+    padding-bottom: 25px;
 }
