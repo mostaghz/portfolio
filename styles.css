@@ -20,13 +20,13 @@
 /*    min-height: 500px;*/
 /*}*/
 
-#codingVsKaraoke {
+#codingVsKaraoke, #myProjects {
     background-color: #B1BC55;
 }
 
 #headshot {
-    width: 70%;
-    height: 90%;
+    width: 400px;
+    height: 550px;
 }
 
 /*.carouselImage {*/
@@ -39,6 +39,6 @@
     position: absolute;
 }
 
-#approach {
+.sectionTitles {
     padding-bottom: 25px;
 }

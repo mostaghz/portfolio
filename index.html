@@ -27,15 +27,15 @@
     </nav>
 
     <!--  HELLO HEADER  -->
-    <header class="container p-5" id="hello">
+    <header class="container px-5" id="hello">
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-7 my-auto">
                 <h4>Hi there!</h4>
                 <h1 class="display-1">I'm Alex Mostaghni,</h1>
                 <h2>a full stack web developer and the worst karaoke singer you've ever heard.</h2>
             </div>
             <div class="col-lg-5 d-flex justify-content-center">
-                <img src="assets/images/alex-headshot.jpg" alt="close up headshot of alex" id="headshot">
+                <img src="assets/images/headshot-placeholder.jpg" alt="headshot placeholder" id="headshot">
             </div>
         </div>
     </header>
@@ -43,7 +43,7 @@
     <!-- CODING VS KARAOKE -->
     <section class="container-fluid" id="codingVsKaraoke">
         <div class="container p-5">
-            <h4 id="approach">My approach to coding and karaoke is similar.</h4>
+            <h4 class="sectionTitles display-6">My approach to coding and karaoke is similar.</h4>
             <!-- FUN -->
             <div class="row">
                 <div class="col-lg-2">
@@ -97,7 +97,7 @@
 
     <!--  MY STACK  -->
     <section class="container p-5" id="myStack">
-        <h3>MY STACK</h3>
+        <h4 class="sectionTitles display-6">I know these languages and frameworks<br>... and all the words to Vanilla Ice's Ice Ice Baby.</br></h4>
         <!-- GUTTERS DON'T WORK WITH TWO ROWS, KEEP AS 1 FOR NOW -->
         <div class="row gy-4">
             <!--  BOOTSTRAP  -->
@@ -152,105 +152,107 @@
     </section>
 
     <!--  MY PROJECTS  -->
-    <section class="container p-5" id="myProjects">
-        <h3>MY PROJECTS</h3>
+    <section class="container-fluid" id="myProjects">
+        <div class="container p-5">
+            <h4 class="sectionTitles display-6">My projects are totally worth singing about.</h4>
 
-    <!--  ABQ TATTOO(H)ERS  -->
-        <div>
-            <h5><a href="https://abqtattoohers.com/" target="_blank">Abq Tattoo(h)ers</a></h5>
-            <p>Abq Tattoo(h)ers is a growing directory highlighting Albuquerque's female tattoo artists.</p>
-            <p>Built with: Bootstrap, CSS, HTML, JavaScript</p>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!--  ABQ TATTOO(H)ERS  -->
+            <div>
+                <h5><a href="https://abqtattoohers.com/" target="_blank">Abq Tattoo(h)ers</a></h5>
+                <p>Abq Tattoo(h)ers is a growing directory highlighting Albuquerque's female tattoo artists.</p>
+                <p>Built with: Bootstrap, CSS, HTML, JavaScript</p>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/abq-tattoo-hers-js-code.jpg" class="d-block w-100 carouselImage" alt="code snippet of reduce funciton for abq tattoo(h)ers">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/abq-tattoo-hers-js-code.jpg" class="d-block w-100 carouselImage" alt="code snippet of reduce funciton for abq tattoo(h)ers">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
 
-        <!--  PLATE IT FORWARD  -->
-        <div class="my-5">
-            <h5><a href="" target="_blank">Plate it Forward</a></h5>
-            <p>Plate it Forward (designed and developed with <a href="https://erinceleste.design" target="_blank">Erin Ruiz</a> and <a href="https://infinitevoid.design" target="_blank">Sergio Salas</a>, tackles hunger and food waste in Albuquerque by partnering with community centers and local restaurants to serve leftovers to those in need.</p>
-            <p>Built with: CSS, Docker, Express, HTML, JavaScript, Node, PostgreSQL, React, React-Bootstrap, Redux, TypeScript</p>
-            <div id="carouselExampleIndicators2" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!--  PLATE IT FORWARD  -->
+            <div class="my-5">
+                <h5><a href="" target="_blank">Plate it Forward</a></h5>
+                <p>Plate it Forward (designed and developed with <a href="https://erinceleste.design" target="_blank">Erin Ruiz</a> and <a href="https://infinitevoid.design" target="_blank">Sergio Salas</a>, tackles hunger and food waste in Albuquerque by partnering with community centers and local restaurants to serve leftovers to those in need.</p>
+                <p>Built with: CSS, Docker, Express, HTML, JavaScript, Node, PostgreSQL, React, React-Bootstrap, Redux, TypeScript</p>
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
 
-        <!-- BOB'S BIPSUMS -->
-        <div class="my-5">
-            <h5><a href="" target="_blank">Bob's Bipsums</a></h5>
-            <p>(IN PROGRESS) Bob's Bipsums is a lorem ipsum generator that uses quotes from all 13 seasons of Bob's Burgers.</p>
-            <p>Built with: Bootstrap, CSS, HTML, JavaScript</p>
-            <div id="carouselExampleIndicators3" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- BOB'S BIPSUMS -->
+            <div class="my-5">
+                <h5><a href="" target="_blank">Bob's Bipsums</a></h5>
+                <p>(IN PROGRESS) Bob's Bipsums is a lorem ipsum generator that uses quotes from all 13 seasons of Bob's Burgers.</p>
+                <p>Built with: Bootstrap, CSS, HTML, JavaScript</p>
+                <div id="carouselExampleIndicators3" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="http://placekitten.com/500/200" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
