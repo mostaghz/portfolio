@@ -29,16 +29,6 @@
     height: 550px;
 }
 
-/*.carouselImage {*/
-/*    width: auto;*/
-/*    height: 100px;*/
-/*}*/
-
-.carouselImage {
-    height: 1px;
-    position: absolute;
-}
-
 .sectionTitles {
     padding-bottom: 25px;
 }
