@@ -4,8 +4,9 @@
 }
 
 .stackIcons {
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 /*.carousel-inner {*/
