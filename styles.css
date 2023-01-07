@@ -24,11 +24,19 @@
     background-color: #B1BC55;
 }
 
-/*#headshot {*/
-/*    width: 400px;*/
-/*    height: 550px;*/
-/*}*/
+#headshot {
+    width: 80%;
+    height: auto;
+}
 
 .sectionTitles {
     padding-bottom: 25px;
 }
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+/*h1, h4 {*/
+/*    font-family: 'Noto Serif Display', Serif;*/
+/*}*/
