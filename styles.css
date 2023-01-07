@@ -24,8 +24,12 @@
     background-color: #ff90d8;
 }
 
+#codingVsKaraoke p {
+    font-size: 1.16em;
+}
+
 #myProjects {
-    background-color: #ff8400;
+    background-color: #f28530;
 }
 
 footer {
