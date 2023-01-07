@@ -20,8 +20,16 @@
 /*    min-height: 500px;*/
 /*}*/
 
-#codingVsKaraoke, #myProjects {
-    background-color: #B1BC55;
+#codingVsKaraoke {
+    background-color: #ff90d8;
+}
+
+#myProjects {
+    background-color: #ff8400;
+}
+
+footer {
+    background-color: #d9f743;
 }
 
 #headshot {
@@ -37,6 +45,15 @@ body {
     font-family: 'Alata', sans-serif;
 }
 
-/*h1, h4 {*/
-/*    font-family: 'Noto Serif Display', Serif;*/
-/*}*/
+h4 {
+    color: #d9f743;
+}
+
+header {
+    background-color: #141414;
+    color: white;
+}
+
+span {
+    color: #d9f743;
+}
