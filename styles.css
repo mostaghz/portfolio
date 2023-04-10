@@ -7,3 +7,9 @@ body {
 /*.projectCarousel{*/
 /*    width: 40em;*/
 /*}*/
+
+/* CONNECT ICONS */
+.connectIcons {
+    width: 35px;
+    height: 35px;
+}
