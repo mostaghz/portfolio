@@ -3,6 +3,7 @@ body {
     color: whitesmoke;
 }
 
-.carousel-inner{
-    width:50%;
+/* PORTFOLIO */
+.projectCarousel{
+    width: 40em;
 }
