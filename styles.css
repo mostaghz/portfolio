@@ -14,7 +14,12 @@ body {
     height: 35px;
 }
 
-#name {
+.name {
     font-size: 13em;
 
+}
+
+img {
+    width: 700px;
+    height: 400px;
 }
