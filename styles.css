@@ -19,6 +19,7 @@ body {
 
 }
 
+/* need to add media queries for mobile responsiveness. it's currently TRASH*/
 img {
     width: 700px;
     height: 400px;
