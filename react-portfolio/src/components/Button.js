@@ -1,6 +1,6 @@
 // MAYBE USE THESE FOR THE PORTFOLIO, RESUME, GITHUB, LINKEDIN BUTTONS INSTEAD OF ICONS? 27:30ish in video
 import React from 'react';
-import './Button.css';
+import './styles/Button.css';
 import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline']

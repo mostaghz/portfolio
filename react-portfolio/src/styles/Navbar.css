@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
@@ -18,7 +18,7 @@
     max-width: 1500px;
   }
   
-  /* don't think i need this yet since i dont have the icon */
+  /* don't think i need this yet since i dont have the icon
   .navbar-logo {
     color: #fff;
     justify-self: start;
@@ -30,13 +30,13 @@
     align-items: center;
   }
   
-  /* don't think i need this yet since i dont have the icon */
+  /* don't think i need this yet since i dont have the icon
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
   
-  .nav-menu {
+  /* .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -60,12 +60,33 @@
     height: 100%;
   }
   
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+    align-items: center;
+  }
+  
+  .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* Remove height: 100%;
+  }
+
   .nav-links:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
   
-  /* might need to change this one... as of 39:40 hasn't been mentioned */
+  /* might need to change this one... as of 39:40 hasn't been mentioned
   .fa-bars {
     color: #fff;
   }
@@ -147,7 +168,8 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      /* targeted the sign up button text color in mobile
+      color: red;
       padding: 14px 20px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
@@ -158,4 +180,83 @@
       color: #242424;
       transition: 250ms;
     }
+  } */
+
+  /* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    padding: 20px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
   }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Light text */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff; /* Light text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #ff69b4; /* Colorful accent */
+  }
+  
+  /* Hamburger Icon */
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff; /* Light text */
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+      padding: 20px 0;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
