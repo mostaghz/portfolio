@@ -14,9 +14,9 @@ body {
     height: 35px;
 }
 
-/* .name {
+.name {
     font-size: 13em;
-} */
+}
 
 /* need to add media queries for mobile responsiveness. it's currently TRASH*/
 img {
